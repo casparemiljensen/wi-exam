@@ -1,0 +1,23 @@
+        {'sg': 1, 'vector_size': 100, 'window': 2, 'negative': 5, 'min_count': 5},
+        {'sg': 1, 'vector_size': 200, 'window': 2, 'negative': 5, 'min_count': 5},
+        {'sg': 1, 'vector_size': 300, 'window': 2, 'negative': 5, 'min_count': 5},
+
+        {'sg': 1, 'vector_size': 100, 'window': 5, 'negative': 5, 'min_count': 5},
+        {'sg': 1, 'vector_size': 200, 'window': 5, 'negative': 5, 'min_count': 5},
+        {'sg': 1, 'vector_size': 300, 'window': 5, 'negative': 5, 'min_count': 5},
+
+        {'sg': 1, 'vector_size': 100, 'window': 10, 'negative': 5, 'min_count': 5},
+        {'sg': 1, 'vector_size': 200, 'window': 10, 'negative': 5, 'min_count': 5},
+        {'sg': 1, 'vector_size': 300, 'window': 10, 'negative': 5, 'min_count': 5},
+
+        {'sg': 0, 'vector_size': 100, 'window': 2, 'negative': 5, 'min_count': 5},
+        {'sg': 0, 'vector_size': 200, 'window': 2, 'negative': 5, 'min_count': 5},
+        {'sg': 0, 'vector_size': 300, 'window': 2, 'negative': 5, 'min_count': 5},
+
+        {'sg': 0, 'vector_size': 100, 'window': 5, 'negative': 5, 'min_count': 5},
+        {'sg': 0, 'vector_size': 200, 'window': 5, 'negative': 5, 'min_count': 5},
+        {'sg': 0, 'vector_size': 300, 'window': 5, 'negative': 5, 'min_count': 5},
+
+        {'sg': 0, 'vector_size': 100, 'window': 10, 'negative': 5, 'min_count': 5},
+        {'sg': 0, 'vector_size': 200, 'window': 10, 'negative': 5, 'min_count': 5},
+        {'sg': 0, 'vector_size': 300, 'window': 10, 'negative': 5, 'min_count': 5}

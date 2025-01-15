@@ -1,0 +1,364 @@
+All experiments completed.
+=================================================
+
+Configuration: {'sg': 1, 'vector_size': 100, 'window': 2, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 11.10%
+Training Time: 22.26 seconds
+Section-wise Results:
+  capital-common-countries: 0.0643 accuracy (27 correct, 393 incorrect)
+  capital-world: 0.0164 accuracy (12 correct, 720 incorrect)
+  currency: 0.0143 accuracy (1 correct, 69 incorrect)
+  city-in-state: 0.0184 accuracy (24 correct, 1281 incorrect)
+  family: 0.4942 accuracy (169 correct, 173 incorrect)
+  gram1-adjective-to-adverb: 0.0258 accuracy (24 correct, 906 incorrect)
+  gram2-opposite: 0.0163 accuracy (9 correct, 543 incorrect)
+  gram3-comparative: 0.1381 accuracy (174 correct, 1086 incorrect)
+  gram4-superlative: 0.0362 accuracy (20 correct, 532 incorrect)
+  gram5-present-participle: 0.2713 accuracy (236 correct, 634 incorrect)
+  gram6-nationality-adjective: 0.1221 accuracy (150 correct, 1079 incorrect)
+  gram7-past-tense: 0.1410 accuracy (209 correct, 1273 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.2821 accuracy (44 correct, 112 incorrect)
+  Total accuracy: 0.1110 accuracy (1099 correct, 8801 incorrect)
+
+Configuration: {'sg': 1, 'vector_size': 200, 'window': 2, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 9.41%
+Training Time: 37.30 seconds
+Section-wise Results:
+  capital-common-countries: 0.0762 accuracy (32 correct, 388 incorrect)
+  capital-world: 0.0314 accuracy (23 correct, 709 incorrect)
+  currency: 0.0000 accuracy (0 correct, 70 incorrect)
+  city-in-state: 0.0100 accuracy (13 correct, 1292 incorrect)
+  family: 0.4094 accuracy (140 correct, 202 incorrect)
+  gram1-adjective-to-adverb: 0.0108 accuracy (10 correct, 920 incorrect)
+  gram2-opposite: 0.0163 accuracy (9 correct, 543 incorrect)
+  gram3-comparative: 0.1508 accuracy (190 correct, 1070 incorrect)
+  gram4-superlative: 0.0362 accuracy (20 correct, 532 incorrect)
+  gram5-present-participle: 0.2322 accuracy (202 correct, 668 incorrect)
+  gram6-nationality-adjective: 0.0879 accuracy (108 correct, 1121 incorrect)
+  gram7-past-tense: 0.1120 accuracy (166 correct, 1316 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.1218 accuracy (19 correct, 137 incorrect)
+  Total accuracy: 0.0941 accuracy (932 correct, 8968 incorrect)
+
+Configuration: {'sg': 1, 'vector_size': 300, 'window': 2, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 8.57%
+Training Time: 46.25 seconds
+Section-wise Results:
+  capital-common-countries: 0.0500 accuracy (21 correct, 399 incorrect)
+  capital-world: 0.0178 accuracy (13 correct, 719 incorrect)
+  currency: 0.0143 accuracy (1 correct, 69 incorrect)
+  city-in-state: 0.0115 accuracy (15 correct, 1290 incorrect)
+  family: 0.2047 accuracy (70 correct, 272 incorrect)
+  gram1-adjective-to-adverb: 0.0183 accuracy (17 correct, 913 incorrect)
+  gram2-opposite: 0.0181 accuracy (10 correct, 542 incorrect)
+  gram3-comparative: 0.1460 accuracy (184 correct, 1076 incorrect)
+  gram4-superlative: 0.0326 accuracy (18 correct, 534 incorrect)
+  gram5-present-participle: 0.2195 accuracy (191 correct, 679 incorrect)
+  gram6-nationality-adjective: 0.0895 accuracy (110 correct, 1119 incorrect)
+  gram7-past-tense: 0.1140 accuracy (169 correct, 1313 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.1859 accuracy (29 correct, 127 incorrect)
+  Total accuracy: 0.0857 accuracy (848 correct, 9052 incorrect)
+
+Configuration: {'sg': 1, 'vector_size': 100, 'window': 5, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 15.97%
+Training Time: 45.68 seconds
+Section-wise Results:
+  capital-common-countries: 0.2048 accuracy (86 correct, 334 incorrect)
+  capital-world: 0.1107 accuracy (81 correct, 651 incorrect)
+  currency: 0.0143 accuracy (1 correct, 69 incorrect)
+  city-in-state: 0.0582 accuracy (76 correct, 1229 incorrect)
+  family: 0.5088 accuracy (174 correct, 168 incorrect)
+  gram1-adjective-to-adverb: 0.0237 accuracy (22 correct, 908 incorrect)
+  gram2-opposite: 0.0109 accuracy (6 correct, 546 incorrect)
+  gram3-comparative: 0.1167 accuracy (147 correct, 1113 incorrect)
+  gram4-superlative: 0.0453 accuracy (25 correct, 527 incorrect)
+  gram5-present-participle: 0.3759 accuracy (327 correct, 543 incorrect)
+  gram6-nationality-adjective: 0.2522 accuracy (310 correct, 919 incorrect)
+  gram7-past-tense: 0.1964 accuracy (291 correct, 1191 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.2244 accuracy (35 correct, 121 incorrect)
+  Total accuracy: 0.1597 accuracy (1581 correct, 8319 incorrect)
+
+Configuration: {'sg': 1, 'vector_size': 200, 'window': 5, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 13.25%
+Training Time: 75.65 seconds
+Section-wise Results:
+  capital-common-countries: 0.1524 accuracy (64 correct, 356 incorrect)
+  capital-world: 0.0888 accuracy (65 correct, 667 incorrect)
+  currency: 0.0286 accuracy (2 correct, 68 incorrect)
+  city-in-state: 0.0506 accuracy (66 correct, 1239 incorrect)
+  family: 0.3421 accuracy (117 correct, 225 incorrect)
+  gram1-adjective-to-adverb: 0.0097 accuracy (9 correct, 921 incorrect)
+  gram2-opposite: 0.0145 accuracy (8 correct, 544 incorrect)
+  gram3-comparative: 0.1056 accuracy (133 correct, 1127 incorrect)
+  gram4-superlative: 0.0326 accuracy (18 correct, 534 incorrect)
+  gram5-present-participle: 0.3356 accuracy (292 correct, 578 incorrect)
+  gram6-nationality-adjective: 0.2083 accuracy (256 correct, 973 incorrect)
+  gram7-past-tense: 0.1775 accuracy (263 correct, 1219 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.1218 accuracy (19 correct, 137 incorrect)
+  Total accuracy: 0.1325 accuracy (1312 correct, 8588 incorrect)
+
+Configuration: {'sg': 1, 'vector_size': 300, 'window': 5, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 10.79%
+Training Time: 95.99 seconds
+Section-wise Results:
+  capital-common-countries: 0.1167 accuracy (49 correct, 371 incorrect)
+  capital-world: 0.0792 accuracy (58 correct, 674 incorrect)
+  currency: 0.0143 accuracy (1 correct, 69 incorrect)
+  city-in-state: 0.0544 accuracy (71 correct, 1234 incorrect)
+  family: 0.2778 accuracy (95 correct, 247 incorrect)
+  gram1-adjective-to-adverb: 0.0108 accuracy (10 correct, 920 incorrect)
+  gram2-opposite: 0.0145 accuracy (8 correct, 544 incorrect)
+  gram3-comparative: 0.0897 accuracy (113 correct, 1147 incorrect)
+  gram4-superlative: 0.0290 accuracy (16 correct, 536 incorrect)
+  gram5-present-participle: 0.2034 accuracy (177 correct, 693 incorrect)
+  gram6-nationality-adjective: 0.2181 accuracy (268 correct, 961 incorrect)
+  gram7-past-tense: 0.1269 accuracy (188 correct, 1294 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.0897 accuracy (14 correct, 142 incorrect)
+  Total accuracy: 0.1079 accuracy (1068 correct, 8832 incorrect)
+
+Configuration: {'sg': 1, 'vector_size': 100, 'window': 10, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 16.13%
+Training Time: 99.02 seconds
+Section-wise Results:
+  capital-common-countries: 0.2333 accuracy (98 correct, 322 incorrect)
+  capital-world: 0.1380 accuracy (101 correct, 631 incorrect)
+  currency: 0.0143 accuracy (1 correct, 69 incorrect)
+  city-in-state: 0.0897 accuracy (117 correct, 1188 incorrect)
+  family: 0.4591 accuracy (157 correct, 185 incorrect)
+  gram1-adjective-to-adverb: 0.0258 accuracy (24 correct, 906 incorrect)
+  gram2-opposite: 0.0072 accuracy (4 correct, 548 incorrect)
+  gram3-comparative: 0.0643 accuracy (81 correct, 1179 incorrect)
+  gram4-superlative: 0.0308 accuracy (17 correct, 535 incorrect)
+  gram5-present-participle: 0.3621 accuracy (315 correct, 555 incorrect)
+  gram6-nationality-adjective: 0.3336 accuracy (410 correct, 819 incorrect)
+  gram7-past-tense: 0.1707 accuracy (253 correct, 1229 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.1218 accuracy (19 correct, 137 incorrect)
+  Total accuracy: 0.1613 accuracy (1597 correct, 8303 incorrect)
+
+Configuration: {'sg': 1, 'vector_size': 200, 'window': 10, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 13.80%
+Training Time: 136.19 seconds
+Section-wise Results:
+  capital-common-countries: 0.2357 accuracy (99 correct, 321 incorrect)
+  capital-world: 0.1380 accuracy (101 correct, 631 incorrect)
+  currency: 0.0143 accuracy (1 correct, 69 incorrect)
+  city-in-state: 0.0736 accuracy (96 correct, 1209 incorrect)
+  family: 0.4240 accuracy (145 correct, 197 incorrect)
+  gram1-adjective-to-adverb: 0.0086 accuracy (8 correct, 922 incorrect)
+  gram2-opposite: 0.0018 accuracy (1 correct, 551 incorrect)
+  gram3-comparative: 0.0286 accuracy (36 correct, 1224 incorrect)
+  gram4-superlative: 0.0199 accuracy (11 correct, 541 incorrect)
+  gram5-present-participle: 0.2793 accuracy (243 correct, 627 incorrect)
+  gram6-nationality-adjective: 0.3694 accuracy (454 correct, 775 incorrect)
+  gram7-past-tense: 0.1120 accuracy (166 correct, 1316 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.0321 accuracy (5 correct, 151 incorrect)
+  Total accuracy: 0.1380 accuracy (1366 correct, 8534 incorrect)
+
+Configuration: {'sg': 1, 'vector_size': 300, 'window': 10, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 11.69%
+Training Time: 153.59 seconds
+Section-wise Results:
+  capital-common-countries: 0.1952 accuracy (82 correct, 338 incorrect)
+  capital-world: 0.1448 accuracy (106 correct, 626 incorrect)
+  currency: 0.0000 accuracy (0 correct, 70 incorrect)
+  city-in-state: 0.0828 accuracy (108 correct, 1197 incorrect)
+  family: 0.3450 accuracy (118 correct, 224 incorrect)
+  gram1-adjective-to-adverb: 0.0054 accuracy (5 correct, 925 incorrect)
+  gram2-opposite: 0.0054 accuracy (3 correct, 549 incorrect)
+  gram3-comparative: 0.0389 accuracy (49 correct, 1211 incorrect)
+  gram4-superlative: 0.0145 accuracy (8 correct, 544 incorrect)
+  gram5-present-participle: 0.2092 accuracy (182 correct, 688 incorrect)
+  gram6-nationality-adjective: 0.2856 accuracy (351 correct, 878 incorrect)
+  gram7-past-tense: 0.0904 accuracy (134 correct, 1348 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.0705 accuracy (11 correct, 145 incorrect)
+  Total accuracy: 0.1169 accuracy (1157 correct, 8743 incorrect)
+
+Configuration: {'sg': 0, 'vector_size': 100, 'window': 2, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 12.03%
+Training Time: 16.15 seconds
+Section-wise Results:
+  capital-common-countries: 0.0833 accuracy (35 correct, 385 incorrect)
+  capital-world: 0.0287 accuracy (21 correct, 711 incorrect)
+  currency: 0.0000 accuracy (0 correct, 70 incorrect)
+  city-in-state: 0.0161 accuracy (21 correct, 1284 incorrect)
+  family: 0.5877 accuracy (201 correct, 141 incorrect)
+  gram1-adjective-to-adverb: 0.0290 accuracy (27 correct, 903 incorrect)
+  gram2-opposite: 0.0109 accuracy (6 correct, 546 incorrect)
+  gram3-comparative: 0.1325 accuracy (167 correct, 1093 incorrect)
+  gram4-superlative: 0.0562 accuracy (31 correct, 521 incorrect)
+  gram5-present-participle: 0.3080 accuracy (268 correct, 602 incorrect)
+  gram6-nationality-adjective: 0.0830 accuracy (102 correct, 1127 incorrect)
+  gram7-past-tense: 0.1673 accuracy (248 correct, 1234 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.4103 accuracy (64 correct, 92 incorrect)
+  Total accuracy: 0.1203 accuracy (1191 correct, 8709 incorrect)
+
+Configuration: {'sg': 0, 'vector_size': 200, 'window': 2, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 12.96%
+Training Time: 19.35 seconds
+Section-wise Results:
+  capital-common-countries: 0.0476 accuracy (20 correct, 400 incorrect)
+  capital-world: 0.0219 accuracy (16 correct, 716 incorrect)
+  currency: 0.0000 accuracy (0 correct, 70 incorrect)
+  city-in-state: 0.0253 accuracy (33 correct, 1272 incorrect)
+  family: 0.5351 accuracy (183 correct, 159 incorrect)
+  gram1-adjective-to-adverb: 0.0269 accuracy (25 correct, 905 incorrect)
+  gram2-opposite: 0.0181 accuracy (10 correct, 542 incorrect)
+  gram3-comparative: 0.1516 accuracy (191 correct, 1069 incorrect)
+  gram4-superlative: 0.0634 accuracy (35 correct, 517 incorrect)
+  gram5-present-participle: 0.3678 accuracy (320 correct, 550 incorrect)
+  gram6-nationality-adjective: 0.0944 accuracy (116 correct, 1113 incorrect)
+  gram7-past-tense: 0.1835 accuracy (272 correct, 1210 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.3974 accuracy (62 correct, 94 incorrect)
+  Total accuracy: 0.1296 accuracy (1283 correct, 8617 incorrect)
+
+Configuration: {'sg': 0, 'vector_size': 300, 'window': 2, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 12.97%
+Training Time: 24.05 seconds
+Section-wise Results:
+  capital-common-countries: 0.0881 accuracy (37 correct, 383 incorrect)
+  capital-world: 0.0301 accuracy (22 correct, 710 incorrect)
+  currency: 0.0000 accuracy (0 correct, 70 incorrect)
+  city-in-state: 0.0299 accuracy (39 correct, 1266 incorrect)
+  family: 0.5409 accuracy (185 correct, 157 incorrect)
+  gram1-adjective-to-adverb: 0.0258 accuracy (24 correct, 906 incorrect)
+  gram2-opposite: 0.0199 accuracy (11 correct, 541 incorrect)
+  gram3-comparative: 0.1429 accuracy (180 correct, 1080 incorrect)
+  gram4-superlative: 0.0471 accuracy (26 correct, 526 incorrect)
+  gram5-present-participle: 0.3230 accuracy (281 correct, 589 incorrect)
+  gram6-nationality-adjective: 0.0944 accuracy (116 correct, 1113 incorrect)
+  gram7-past-tense: 0.2051 accuracy (304 correct, 1178 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.3782 accuracy (59 correct, 97 incorrect)
+  Total accuracy: 0.1297 accuracy (1284 correct, 8616 incorrect)
+
+Configuration: {'sg': 0, 'vector_size': 100, 'window': 5, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 14.96%
+Training Time: 16.24 seconds
+Section-wise Results:
+  capital-common-countries: 0.1381 accuracy (58 correct, 362 incorrect)
+  capital-world: 0.0615 accuracy (45 correct, 687 incorrect)
+  currency: 0.0286 accuracy (2 correct, 68 incorrect)
+  city-in-state: 0.0490 accuracy (64 correct, 1241 incorrect)
+  family: 0.6608 accuracy (226 correct, 116 incorrect)
+  gram1-adjective-to-adverb: 0.0215 accuracy (20 correct, 910 incorrect)
+  gram2-opposite: 0.0091 accuracy (5 correct, 547 incorrect)
+  gram3-comparative: 0.1063 accuracy (134 correct, 1126 incorrect)
+  gram4-superlative: 0.0580 accuracy (32 correct, 520 incorrect)
+  gram5-present-participle: 0.4046 accuracy (352 correct, 518 incorrect)
+  gram6-nationality-adjective: 0.1318 accuracy (162 correct, 1067 incorrect)
+  gram7-past-tense: 0.2274 accuracy (337 correct, 1145 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.2821 accuracy (44 correct, 112 incorrect)
+  Total accuracy: 0.1496 accuracy (1481 correct, 8419 incorrect)
+
+Configuration: {'sg': 0, 'vector_size': 200, 'window': 5, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 15.45%
+Training Time: 20.75 seconds
+Section-wise Results:
+  capital-common-countries: 0.1405 accuracy (59 correct, 361 incorrect)
+  capital-world: 0.0683 accuracy (50 correct, 682 incorrect)
+  currency: 0.0143 accuracy (1 correct, 69 incorrect)
+  city-in-state: 0.0429 accuracy (56 correct, 1249 incorrect)
+  family: 0.5936 accuracy (203 correct, 139 incorrect)
+  gram1-adjective-to-adverb: 0.0226 accuracy (21 correct, 909 incorrect)
+  gram2-opposite: 0.0145 accuracy (8 correct, 544 incorrect)
+  gram3-comparative: 0.1302 accuracy (164 correct, 1096 incorrect)
+  gram4-superlative: 0.0362 accuracy (20 correct, 532 incorrect)
+  gram5-present-participle: 0.4023 accuracy (350 correct, 520 incorrect)
+  gram6-nationality-adjective: 0.1562 accuracy (192 correct, 1037 incorrect)
+  gram7-past-tense: 0.2402 accuracy (356 correct, 1126 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.3205 accuracy (50 correct, 106 incorrect)
+  Total accuracy: 0.1545 accuracy (1530 correct, 8370 incorrect)
+
+Configuration: {'sg': 0, 'vector_size': 300, 'window': 5, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 15.64%
+Training Time: 23.75 seconds
+Section-wise Results:
+  capital-common-countries: 0.1500 accuracy (63 correct, 357 incorrect)
+  capital-world: 0.0683 accuracy (50 correct, 682 incorrect)
+  currency: 0.0000 accuracy (0 correct, 70 incorrect)
+  city-in-state: 0.0414 accuracy (54 correct, 1251 incorrect)
+  family: 0.6053 accuracy (207 correct, 135 incorrect)
+  gram1-adjective-to-adverb: 0.0323 accuracy (30 correct, 900 incorrect)
+  gram2-opposite: 0.0127 accuracy (7 correct, 545 incorrect)
+  gram3-comparative: 0.1444 accuracy (182 correct, 1078 incorrect)
+  gram4-superlative: 0.0399 accuracy (22 correct, 530 incorrect)
+  gram5-present-participle: 0.4069 accuracy (354 correct, 516 incorrect)
+  gram6-nationality-adjective: 0.1489 accuracy (183 correct, 1046 incorrect)
+  gram7-past-tense: 0.2308 accuracy (342 correct, 1140 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.3462 accuracy (54 correct, 102 incorrect)
+  Total accuracy: 0.1564 accuracy (1548 correct, 8352 incorrect)
+
+Configuration: {'sg': 0, 'vector_size': 100, 'window': 10, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 14.79%
+Training Time: 19.30 seconds
+Section-wise Results:
+  capital-common-countries: 0.1833 accuracy (77 correct, 343 incorrect)
+  capital-world: 0.1011 accuracy (74 correct, 658 incorrect)
+  currency: 0.0286 accuracy (2 correct, 68 incorrect)
+  city-in-state: 0.0437 accuracy (57 correct, 1248 incorrect)
+  family: 0.5936 accuracy (203 correct, 139 incorrect)
+  gram1-adjective-to-adverb: 0.0183 accuracy (17 correct, 913 incorrect)
+  gram2-opposite: 0.0036 accuracy (2 correct, 550 incorrect)
+  gram3-comparative: 0.0690 accuracy (87 correct, 1173 incorrect)
+  gram4-superlative: 0.0362 accuracy (20 correct, 532 incorrect)
+  gram5-present-participle: 0.3207 accuracy (279 correct, 591 incorrect)
+  gram6-nationality-adjective: 0.2278 accuracy (280 correct, 949 incorrect)
+  gram7-past-tense: 0.2166 accuracy (321 correct, 1161 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.2885 accuracy (45 correct, 111 incorrect)
+  Total accuracy: 0.1479 accuracy (1464 correct, 8436 incorrect)
+
+Configuration: {'sg': 0, 'vector_size': 200, 'window': 10, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 14.68%
+Training Time: 24.51 seconds
+Section-wise Results:
+  capital-common-countries: 0.1952 accuracy (82 correct, 338 incorrect)
+  capital-world: 0.0751 accuracy (55 correct, 677 incorrect)
+  currency: 0.0000 accuracy (0 correct, 70 incorrect)
+  city-in-state: 0.0506 accuracy (66 correct, 1239 incorrect)
+  family: 0.5965 accuracy (204 correct, 138 incorrect)
+  gram1-adjective-to-adverb: 0.0140 accuracy (13 correct, 917 incorrect)
+  gram2-opposite: 0.0091 accuracy (5 correct, 547 incorrect)
+  gram3-comparative: 0.0690 accuracy (87 correct, 1173 incorrect)
+  gram4-superlative: 0.0308 accuracy (17 correct, 535 incorrect)
+  gram5-present-participle: 0.3517 accuracy (306 correct, 564 incorrect)
+  gram6-nationality-adjective: 0.2116 accuracy (260 correct, 969 incorrect)
+  gram7-past-tense: 0.2126 accuracy (315 correct, 1167 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.2756 accuracy (43 correct, 113 incorrect)
+  Total accuracy: 0.1468 accuracy (1453 correct, 8447 incorrect)
+
+Configuration: {'sg': 0, 'vector_size': 300, 'window': 10, 'negative': 5, 'min_count': 5}
+Overall Accuracy: 14.81%
+Training Time: 32.68 seconds
+Section-wise Results:
+  capital-common-countries: 0.2048 accuracy (86 correct, 334 incorrect)
+  capital-world: 0.0874 accuracy (64 correct, 668 incorrect)
+  currency: 0.0429 accuracy (3 correct, 67 incorrect)
+  city-in-state: 0.0552 accuracy (72 correct, 1233 incorrect)
+  family: 0.5526 accuracy (189 correct, 153 incorrect)
+  gram1-adjective-to-adverb: 0.0108 accuracy (10 correct, 920 incorrect)
+  gram2-opposite: 0.0072 accuracy (4 correct, 548 incorrect)
+  gram3-comparative: 0.0929 accuracy (117 correct, 1143 incorrect)
+  gram4-superlative: 0.0417 accuracy (23 correct, 529 incorrect)
+  gram5-present-participle: 0.3391 accuracy (295 correct, 575 incorrect)
+  gram6-nationality-adjective: 0.2132 accuracy (262 correct, 967 incorrect)
+  gram7-past-tense: 0.2045 accuracy (303 correct, 1179 incorrect)
+  gram8-plural: No evaluations performed.
+  gram9-plural-verbs: 0.2436 accuracy (38 correct, 118 incorrect)
+  Total accuracy: 0.1481 accuracy (1466 correct, 8434 incorrect)
+=================================================
+Total time for all experiments: 1231.96 seconds.

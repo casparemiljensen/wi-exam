@@ -1,0 +1,13 @@
+gensim==3.8
+datasets==3.1.0
+scikit-learn==1.5.2
+scipy==1.12
+nltk==3.8.1
+torch
+torchvision
+torchaudio
+jupyterlab
+jupyter
+matplotlib==3.9.2
+seaborn==0.13.2
+

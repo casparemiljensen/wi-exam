@@ -1,0 +1,36 @@
+    # experiment 1
+     
+    # configurations = [
+    #     # # Embedding dimension = 100,
+    #     # {'sg': 1, 'vector_size': 100, 'window': 2, 'negative': 2, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 100, 'window': 5, 'negative': 2, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 100, 'window': 10, 'negative': 2, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 100, 'window': 2, 'negative': 5, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 100, 'window': 5, 'negative': 5, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 100, 'window': 10, 'negative': 5, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 100, 'window': 2, 'negative': 10, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 100, 'window': 5, 'negative': 10, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 100, 'window': 10, 'negative': 10, 'min_count': 5},
+    #     #
+    #     # # Embedding dimension = 200
+    #     # {'sg': 1, 'vector_size': 200, 'window': 2, 'negative': 2, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 200, 'window': 5, 'negative': 2, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 200, 'window': 10, 'negative': 2, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 200, 'window': 2, 'negative': 5, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 200, 'window': 5, 'negative': 5, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 200, 'window': 10, 'negative': 5, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 200, 'window': 2, 'negative': 10, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 200, 'window': 5, 'negative': 10, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 200, 'window': 10, 'negative': 10, 'min_count': 5},
+    #     #
+    #     # # Embedding dimension = 300
+    #     # {'sg': 1, 'vector_size': 300, 'window': 2, 'negative': 2, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 300, 'window': 5, 'negative': 2, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 300, 'window': 10, 'negative': 2, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 300, 'window': 2, 'negative': 5, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 300, 'window': 5, 'negative': 5, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 300, 'window': 10, 'negative': 5, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 300, 'window': 2, 'negative': 10, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 300, 'window': 5, 'negative': 10, 'min_count': 5},
+    #     # {'sg': 1, 'vector_size': 300, 'window': 10, 'negative': 10, 'min_count': 5},
+    # ]
